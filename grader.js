@@ -64,7 +64,6 @@ var clone = function(fn) {
 var doesNotExist = function(prompt) {
     console.log("%s does not exist. Exiting.", prompt);
     process.exit(1); // http://nodejs.org/api/process.html#process_process_exit_code
-
 };
 
 if(require.main == module) {
